@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void hello() => runApp(MyHello());
 
-class MyApp extends StatelessWidget {
+class MyHello extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
