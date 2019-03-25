@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-void hello() => runApp(MyHello());
+void main() => runApp(MyApp());
 
-class MyHello extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to use ldpass',
+      title: 'Welcome to Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Welcome to use ldpass'),
+          title: Text('Welcome to Flutter'),
         ),
         body: Center(
           child: Text('Hello World'),
@@ -18,6 +18,12 @@ class MyHello extends StatelessWidget {
     );
   }
 }
+
+
+
+//Hidden Due to New Feature Testing
+/*
+import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
@@ -127,3 +133,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
